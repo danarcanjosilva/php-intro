@@ -11,7 +11,6 @@ function defineCategoriaCompetidor(string $nome, string $idade) : ?string
     $categorias[] = 'infantil';
     $categorias[] = 'adolescente';
     $categorias[] = 'adulto';
-    
     if(validaNome($nome) && validaIdade($idade))
     {
         removerMensagemErro();
